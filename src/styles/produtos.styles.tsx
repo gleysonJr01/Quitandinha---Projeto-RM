@@ -34,7 +34,7 @@ const styles = StyleSheet.create({
     margin: 8,
     alignItems: "center",
     justifyContent: "center",
-    height: 250, // Ajuste a altura do card
+    height: 300, // Ajuste a altura do card
   },
   imagemProduto: {
     width: 100,  // Aumenta o tamanho da imagem, se necessário

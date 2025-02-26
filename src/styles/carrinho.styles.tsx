@@ -11,6 +11,21 @@ setaIcon: {
   marginLeft: 10,  
 },
 
+totalContainer: {
+  alignItems: 'center',
+},
+
+totalLabel: {
+  fontSize: 14,
+  color: '#666',
+},
+
+totalValor: {
+  fontSize: 18,
+  fontWeight: 'bold',
+  color: '#333',
+},
+
 linhaSeparadora: {
   borderTopWidth: 1,
   borderColor: '#000',
@@ -19,12 +34,13 @@ linhaSeparadora: {
 },
 
 botaoContinuar: {
-  position: 'absolute',
-  bottom: 0,
-  width: '110%',
+  width: '55%',
+  borderWidth:1,
   backgroundColor: '#FFD700',
   paddingVertical: 15,
   alignItems: 'center',
+  alignSelf:'flex-end',
+
 },
 
 textoBotaoContinuar: {
@@ -32,6 +48,18 @@ textoBotaoContinuar: {
   fontWeight: 'bold',
   color: '#333',
 },
+finalizarContainer: {
+  flexDirection: 'row',
+  justifyContent: 'space-between',
+  alignItems: 'center',
+  paddingHorizontal: 10,
+  marginTop: 20,
+},
+
+
+
+
+
 
 
 produtoTextoContainer: {
@@ -136,25 +164,26 @@ quantidadeTexto: {
   },
   produtosContainer: {
     flex: 1, 
-    maxHeight: 400, // Define a altura máxima do container (ajuste conforme necessário)
-    overflow: 'hidden', // Garante que a rolagem fique dentro desse espaço
+    maxHeight: 460, 
+    overflow: 'hidden', 
   },
   header: {
     position: 'absolute',
     top: 0,
     left: 0,
     right: 0,
-    backgroundColor: '#FFD700',  // Cor amarela
+    backgroundColor: '#FFD700',  
     paddingTop: StatusBar.currentHeight ? StatusBar.currentHeight + 10 : 30, 
     paddingBottom: 20,  
     alignItems: 'center',
     justifyContent: 'center',
-    zIndex: 10, // Garante que fique sobre outros elementos
+    zIndex: 10,
   },
   headerTexto: {
     fontSize: 18,
-    fontWeight: 'semibold',
+    fontWeight: 'bold',
     color: '#333',
+    
   },
   container: {
     flex: 1,
@@ -185,6 +214,7 @@ quantidadeTexto: {
   adicionarContainer: {
     flexDirection: 'row',
     alignItems: 'center',
+    alignSelf:'center'
   },
   
   adicionarTexto: {

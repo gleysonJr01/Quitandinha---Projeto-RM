@@ -23,7 +23,6 @@ const SearchBar: React.FC<SearchBarProps> = ({ onSearch, onClose }) => {
         onChangeText={handleSearch}
         style={styles.searchBar}
       />
-      <IconButton icon="close" size={28} onPress={onClose} />
     </View>
   );
 };
@@ -38,7 +37,8 @@ const styles = StyleSheet.create({
   },
   searchBar: {
     backgroundColor: "#fff",
-    borderRadius: 20
+    borderRadius: 20,
+    marginRight: 10,
   },
 });
 

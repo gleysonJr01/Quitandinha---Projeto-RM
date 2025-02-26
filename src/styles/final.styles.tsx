@@ -6,69 +6,11 @@ const styles = StyleSheet.create({
       alignItems: "center",
       backgroundColor: "#fff",
     },
-    totalContainer: {
-      marginTop:20,
-      alignItems: 'center',
-      marginBottom: 20,
-    },
-    moedaTexto: {
-      fontSize: 18, // Deixa o "R$" pequeno
-      fontWeight: 'bold',
-      color: '#333',
-  
-    },
-
-  totalTexto: {
-    fontSize: 20,
-    fontWeight: 'bold',
-    color: '#333',
-    marginBottom: 10,
-  },
-
-  valorTotalTexto: {
-    fontSize: 22,
-    fontWeight: 'bold',
-    color: '#333',
-  },
-    valorTexto: {
-      fontSize: 36, // Número grande
-      fontWeight: 'bold',
-      color: '#333',
-    },
-    centavosTexto: {
-      fontSize: 18, // Centavos menores
-      fontWeight: 'normal', // Sem negrito
-      color: '#333',
-    },
     image: {
-      width: 200,
-      height: 200,
+      width: 250,
+      height: 250,
       resizeMode: "contain",
     },
-    pagamentoContainer: {
-      borderWidth:1.5,
-      borderRadius:10,
-      height:400,
-      padding:10,
-      alignItems: "center",
-      marginVertical: 20,
-    },
-  
-    pagamentoTexto: {
-      fontSize: 16,
-      fontWeight: "bold",
-      marginBottom: 10,
-    },
-  
-    iconContainer: {
-      flexDirection: "row",
-      alignItems: "center",
-    },
-  
-    setaIcon: {
-      marginLeft: 10,
-    },
-  
     button: {
       paddingVertical: 12,
       paddingHorizontal: 20,
@@ -78,6 +20,17 @@ const styles = StyleSheet.create({
     buttonText: {
       color: "#fff",
       fontSize: 16,
+      fontWeight: "bold",
+    },
+    thankYouText: {
+      fontSize: 18,
+      color: "#000",
+      marginVertical: 20,
+      fontWeight:'bold',
+      marginBottom:60
+    },
+    highlightText: {
+      color: "#F8CA2F", // Aqui você pode alterar a cor se desejar
       fontWeight: "bold",
     },
   });
